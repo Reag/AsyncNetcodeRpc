@@ -1,0 +1,29 @@
+{
+  "name": "com.dms.asyncnetcoderpc",
+  "version": "1.0.0",
+  "displayName": "Async Netcode Rpc",
+  "description": "Code gen for creating AsyncRpc",
+  "unity": "6000.3",
+  "unityRelease": "0f1",
+  "keywords": [
+    "tooling",
+    "utilities",
+    "ui"
+  ],
+  "author": {
+    "name": "Reag",
+    "url": "https://github.com/Reag",
+    "email": "dgco2@hotmail.com"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Setup Demo",
+      "description": "An introductory scene showing how to link custom managers.",
+      "path": "Samples~/BasicSetup"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "com.cysharp.unitask": "2.5.0"
+  }
+}
