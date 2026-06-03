@@ -24,6 +24,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "com.cysharp.unitask": "2.5.0"
+    "com.cysharp.unitask": "2.5.0",
+    "com.unity.netcode.gameobjects": "2.0.0"
   }
 }
