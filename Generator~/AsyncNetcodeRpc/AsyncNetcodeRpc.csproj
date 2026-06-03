@@ -3,7 +3,24 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>11</LangVersion>
+        <SatelliteResourceLanguages>none</SatelliteResourceLanguages>
         <Nullable>enable</Nullable>
+        <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+        <UseAppHost>false</UseAppHost>
+      <AnalysisLevel>latest</AnalysisLevel>
+      <AssemblyName>$(MSBuildProjectName)_Generator</AssemblyName>
+      <NuGetAudit>False</NuGetAudit>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+      <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+      <DebugType>embedded</DebugType>
     </PropertyGroup>
 
     <ItemGroup>
